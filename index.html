@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>إن بي سي</title>
+
+		<!-- OWL CAROUSEL -->
+		<link
+		  rel="stylesheet"
+		  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+		  crossorigin="anonymous"
+		  referrerpolicy="no-referrer"
+		/>
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<!-- Bootstrap -->
+		<link
+		  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+		  rel="stylesheet"
+		  integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+		  crossorigin="anonymous"
+		/>
+		<!-- FontAowsme -->
+		<script
+		  src="https://kit.fontawesome.com/923c2344f5.js"
+		  crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+	</head>
+	<body>
+		<!-- NAVBAR -->
+		<nav id="navbar" class="navbar navbar-expand-lg">
+		  <div class="container-fluid m-auto p-0" style="width: 85%">
+
+			<div class="col-lg-2 col-md-4 d-flex">
+				<button class="nav-link navbar-toggler list-btn mob-view" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<div class="list-toggler">
+					  <span class="child"></span>
+					  <span class="child"></span>
+					  <span class="child"></span>
+					</div>
+				</button>
+	
+				<ul class="nav-svgs">
+					<li>
+						<img src="media/globe.svg">
+					</li>
+					<li>
+						<img src="media/search.svg">
+					</li>
+				</ul>
+			</div>
+			<ul class="navbar-nav me-auto mb-2 d-lg-flex d-xl-flex d-none">  
+		        <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="contact-us.html">إتصل بنا</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="our-work.html">أعمالنا</a>
+				  </li>
+				   <li class="nav-item">
+					<a class="nav-link" href="get-an-offer.html">احصل على عرض</a>
+				  </li>
+				   <li class="nav-item">
+					<a class="nav-link" href="our-services.html">خدماتنا</a>
+				  </li>
+				   <li class="nav-item">
+					<a class="nav-link" href="who-we-are.html">من نحن</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="index.html">الرئيسية</a>
+				  </li>
+		    </ul> 
+
+			<a class="navbar-brand col-lg-2 col-md-3 col-sm-4" href="#">
+				<img src="media/dark-logo.svg">
+		    </a>
+			
+			
+		    <ul class="navbar-nav me-auto mb-2 collapse w-100" id="navbarSupportedContent">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">الرئيسية</a>
+				  </li> 
+				  <li class="nav-item">
+					<a class="nav-link" href="who-we-are.html">من نحن</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="our-services.html">خدماتنا</a>
+				  </li> 
+				  <li class="nav-item">
+					<a class="nav-link" href="get-an-offer.html">احصل على عرض</a>
+				  </li> 
+				  <li class="nav-item">
+					<a class="nav-link" href="our-work.html">أعمالنا</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="contact-us.html">إتصل بنا</a>
+				  </li>
+		    </ul> 
+	
+		  </div>		    
+		</nav>
+
+		<!-- UPPER SECTION -->
+		<div id="upper-section">
+			<div id="home-hero">
+				<div class="left-img col-lg-7 d-none d-lg-block d-xl-block">
+					<img src="media/hero.svg">
+				</div>
+				<div class="col-lg-5 col-md-12" style="padding: 10rem 0rem;">
+					<h2>
+						خبراء تطوير تطبيقات الهاتف والمواقع الالكترونية
+					</h2>
+					<p>
+						نصمم المتاجر بأفضل وأحدث التقنيات العالمية
+						ونوفر جميع الأدوات اللازمة لإدارة متجرك
+					</p>
+					<a class="btn">
+						<i class="fas fa-arrow-left"></i>
+						<span>أحصل على عرض </span>
+					</a>
+				</div>
+			</div>
+			<a href="#features">
+				<img class="arrow-down" src="media/arrow-down.svg" >
+			</a>
+			<div id="features">
+				<h3>
+					مميزات تحصل عايها من إن بي سي
+				</h3>
+				<span class="fspan">
+					نحن نقدم أفضل خدمة ذات
+				</span>
+				<div class="owl-carousel owl-carousel-features owl-theme container">
+					<div class="item">
+						<img src="media/icon1.svg">
+						<h4>
+							تصميم فريد لكل مشروع
+						</h4>
+						<span>
+							تصميم فريد لكل مشروع
+						</span>
+					</div>
+					<div class="item">
+						<img src="media/icon1.svg">
+						<h4>
+							تصميم فريد لكل مشروع
+						</h4>
+						<span>
+							تصميم فريد لكل مشروع
+						</span>
+					</div>
+					<div class="item">
+						<img src="media/icon1.svg">
+						<h4>
+							تصميم فريد لكل مشروع
+						</h4>
+						<span>
+							تصميم فريد لكل مشروع
+						</span>
+					</div>
+					<div class="item">
+						<img src="media/icon1.svg">
+						<h4>
+							تصميم فريد لكل مشروع
+						</h4>
+						<span>
+							تصميم فريد لكل مشروع
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MOBILE SECTION-->
+		<div id="mobile-section">
+			<h3>
+				خطوات تنفيذ تطبيقات الجوال
+			</h3>
+			<h5 style="text-align: center;">
+				هنسهلك كل حاجه وده بيضمنلك الراحة و الجودة
+			</h5>
+			<div class="mobile-guides">
+				<div class="col-5 d-none d-lg-block d-xl-block">
+					<img class="left-img" src="media/mobile-section.svg">
+				</div>
+				<div class="col-lg-6 col-md-12 d-flex right-side" style="place-content: flex-end;">
+					<ul class="mobile-list col-lg-10 col-md-12">
+						<li style="margin-right: -130px; margin-bottom: -20px;">
+							<h5 class="d-inline-block">
+								البدء في تصميم الشعار وتصميم شاشات التطبيق
+							</h5>
+							<span>1&nbsp;</span>
+						</li>
+						<li style="margin-bottom: 20px;">
+							<h5 class="d-inline-block">
+								البدء في تصميم الشعار وتصميم شاشات التطبيق
+							</h5>
+							<span>2</span>
+						</li>
+						<li style="margin-right: 30px;">
+							<h5 class="d-inline-block">
+								بعد اعتماد التصميمات نبدء في عمل تحليل 
+								شامل للمشروع وارفاق التحليل بملف لسهولة
+								. فهم التطبيق بالكامل
+							</h5>
+							<span>3</span>
+						</li>
+						<li style="margin-top: 20px;">
+							<h5 class="d-inline-block"> 
+								بعد اعتماد تحليل المشروع نبدء في مرحلة برمجة لوحات التحكم
+								. ورفعها علي رابط خاص لنسهل عليك متابعة مسيرة العمل يوميا							</h5>
+							<span>4</span>
+						</li>
+						<li style="margin-right: -130px; margin-top: -20px;">
+							<h5 class="d-inline-block">
+								بعد اعتماد لوحة التحكم وتجربتها يتم ربطها بتصميم الاندرويد و ال Ios  مع العلم اننا لا 
+								نستخدم غير لغات برمجة ال Native فقط لضمان الجودة واستمرارية عمل التطبيق ونجاحه.							</h5>
+							<span>5</span>
+						</li>
+					</ul>
+					<div class="col-lg-2 col-md-12" style="align-self: center;">
+						<span class="mobile-icon">
+							<img src="media/smartphone.svg">
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- OUR SERVICES -->
+		<div id="our-services">
+			<h3>
+				خدماتنا
+			</h3>
+			<h5>
+				هنسهلك كل حاجه وده بيضمنلك الراحة و الجودة
+			</h5>
+			<div class="owl-carousel owl-carousel-services owl-theme container">
+				<div class="item">
+					<img src="media/icon2.svg">
+					<h4>
+						تصميم فريد لكل مشروع
+					</h4>
+					<div style="width: 250px;">
+						<span class="item-info">
+							premium freameworks to provide high level results.
+						</span>
+					</div>
+					<a class="btn">
+						<i class="fas fa-arrow-left"></i>
+						<span>إضغط للمزيد</span>
+					</a>
+				</div>
+				<div class="item">
+					<img src="media/icon2.svg">
+					<h4>
+						تصميم فريد لكل مشروع
+					</h4>
+					<div style="width: 250px;">
+						<span class="item-info">
+							premium freameworks to provide high level results.
+						</span>
+					</div>
+					<a class="btn">
+						<i class="fas fa-arrow-left"></i>
+						<span>إضغط للمزيد</span>
+					</a>
+				</div>
+				<div class="item">
+					<img src="media/icon2.svg">
+					<h4>
+						تصميم فريد لكل مشروع
+					</h4>
+					<div style="width: 250px;">
+						<span class="item-info">
+							premium freameworks to provide high level results.
+						</span>
+					</div>
+					<a class="btn">
+						<i class="fas fa-arrow-left"></i>
+						<span>إضغط للمزيد</span>
+					</a>
+				</div>
+				<div class="item">
+					<img src="media/icon2.svg">
+					<h4>
+						تصميم فريد لكل مشروع
+					</h4>
+					<div style="width: 250px;">
+						<span class="item-info">
+							premium freameworks to provide high level results.
+						</span>
+					</div>
+					<a class="btn">
+						<i class="fas fa-arrow-left"></i>
+						<span>إضغط للمزيد</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- VIDEO SECTION-->
+		<div id="video-section">
+			<div class="col-lg-6 col-md-12">
+				<h3>
+					شاهد إن بي سي في كل دقيقة
+				</h3>
+				<h5>
+					نحن في إن بي سي نهتم بكل التفاصيل التي تؤثر في جمال التصميم واخراجه بالطريقة التي تناسب مجال عملك والتي تؤثر في عملاءك المحتملين كما لدينا دعم فني متواجد طوال الاسبوع
+				</h5>
+			</div>
+			<a class="col-lg-6 col-md-12" style="cursor: pointer; text-align: center;">
+				<img src="media/video-background.svg">
+			</a>
+		</div>
+
+		<!-- TABS SECTION-->
+		<div id="tabs-section">
+			<ul class="nav nav-tabs  m-auto">
+				<li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<a href="#ft-tab" data-toggle="tab">
+						<span>
+							تصميم وبرمجة تطبيقات الجوال
+
+						</span>
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<a href="#th-tab" data-toggle="tab">
+						التسويق الالكتروني
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<a href="#s-tab" data-toggle="tab">
+						إعلانات جوجل
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">                    
+					<a href="#f-tab" class="active" data-toggle="tab">
+						تصميم مواقع الكترونية
+					</a>
+				</li>
+			</ul>
+		  <div class="tab-content  m-auto">
+
+			  <div class="tab-pane active" id="f-tab">
+				<div class="tab-holder">
+					<div class="col-lg-6 col-md-12" style="text-align: right;">
+						<div class="container">
+							<h3>
+								تصميم مواقع الكترونية
+							</h3>
+							<span>
+								اولا تقييم موقعك فى جوجل و توافق التصميم و البرمجة مع معايير جوجل هو كل حاجة لو واخد تقييم ضعيف و غير متوافق يبقى مالوش اى لازمة حتى لو شكله عاجبك جدا و تقييمه ضعيف فى جوجل يبقي هيخسرك و ضيعت فلوسك فى التسويق و الموقع مع بعض لانك هتدفع فلوس فى التسويق كتير و مش هيجيلك عملاء بالعدد المناسب لتكلفة التسويق المدفوعة بالنسبة للمنافسين فى مجالك على جوجل و بكده مش هيجيلك عملاء زيهم بسبب ارتفاع سعر النقرات عندك و هم سعر النقرات عندهم اقل منك بكتير بسبب جودة تصميم و برمجة موقعهم متوافقه مع جوجل بالكامل و تانى حاجة موقع الاستضافه لازم يكون موقع محترم لان ده هياثر على التقييم فى جوجل برده لموقعك طيب ايه الى هيضمنلك انك تستلم موقعك من عندنا باعلى تقييم فى جوجل و اقوي تصميم متوافق مع جوجل ؟ بسيطة هتدخل على موقع جوجل الخاص باختبار موقعك و هتشوف التقييم لو ضعيف متستلمش موقعك و مش كده و بس كمان لو التسويق منجحش معاك هنرجعلك فلوسك و ده السبب فى ان فى مواقع تقريبا ببلاش و مواقع تانية مكلفة طبعا المكلفة اتعمل مجهود كبير جدا فى تنفيذها علشان الموقع ياخد تقييم عالى فى جوجل و يكون متوافق مع معايير جوجل في البرمجة و التصميم و التانية متعملش فيها مجهود كبير فى التنفيذ ده غير الحماية من الاختراق لموقعك من خلال 6 مراحل للحماية بضمان رسمي فى العقد و طبعا بتستلم عقد رسمى بسجل تجارى مختوم بختم الشركة يضمن ليك جودة موقعك و كمان دعم فنى مجانى لمدة سنة من تاريخ استلام موقعك علشان نضمن ليك ان فى حالة وجود اى مشكلة فى الموقع لقدر الله تتحل فورا بدون اى مصاريف اضافية زى الضمان كده لمدة سنة و الدعم الفنى عندنا شغال 24 ساعه طوال ايام الاسبوع و ليه رقم تواصل خاص بقسم الدعم الفنى
+							</span>
+						</div>
+					</div>
+					<div class="col-5 d-none d-lg-block d-xl-block">
+						<img src="media/tab1.svg">
+					</div>
+				</div>
+			  </div>
+  
+			  <div  class="tab-pane" id="s-tab">
+				<div class="tab-holder">
+					<div class="col-lg-6 col-md-12" style="text-align: right;">
+						<div class="container">
+							<h3>
+								إعلانات جوجل
+							</h3>
+							<span>
+								اولا تقييم موقعك فى جوجل و توافق التصميم و البرمجة مع معايير جوجل هو كل حاجة لو واخد تقييم ضعيف و غير متوافق يبقى مالوش اى لازمة حتى لو شكله عاجبك جدا و تقييمه ضعيف فى جوجل يبقي هيخسرك و ضيعت فلوسك فى التسويق و الموقع مع بعض لانك هتدفع فلوس فى التسويق كتير و مش هيجيلك عملاء بالعدد المناسب لتكلفة التسويق المدفوعة بالنسبة للمنافسين فى مجالك على جوجل و بكده مش هيجيلك عملاء زيهم بسبب ارتفاع سعر النقرات عندك و هم سعر النقرات عندهم اقل منك بكتير بسبب جودة تصميم و برمجة موقعهم متوافقه مع جوجل بالكامل و تانى حاجة موقع الاستضافه لازم يكون موقع محترم لان ده هياثر على التقييم فى جوجل برده لموقعك طيب ايه الى هيضمنلك انك تستلم موقعك من عندنا باعلى تقييم فى جوجل و اقوي تصميم متوافق مع جوجل ؟ بسيطة هتدخل على موقع جوجل الخاص باختبار موقعك و هتشوف التقييم لو ضعيف متستلمش موقعك و مش كده و بس كمان لو التسويق منجحش معاك هنرجعلك فلوسك و ده السبب فى ان فى مواقع تقريبا ببلاش و مواقع تانية مكلفة طبعا المكلفة اتعمل مجهود كبير جدا فى تنفيذها علشان الموقع ياخد تقييم عالى فى جوجل و يكون متوافق مع معايير جوجل في البرمجة و التصميم و التانية متعملش فيها مجهود كبير فى التنفيذ ده غير الحماية من الاختراق لموقعك من خلال 6 مراحل للحماية بضمان رسمي فى العقد و طبعا بتستلم عقد رسمى بسجل تجارى مختوم بختم الشركة يضمن ليك جودة موقعك و كمان دعم فنى مجانى لمدة سنة من تاريخ استلام موقعك علشان نضمن ليك ان فى حالة وجود اى مشكلة فى الموقع لقدر الله تتحل فورا بدون اى مصاريف اضافية زى الضمان كده لمدة سنة و الدعم الفنى عندنا شغال 24 ساعه طوال ايام الاسبوع و ليه رقم تواصل خاص بقسم الدعم الفنى
+							</span>
+						</div>
+					</div>
+					<div class="col-5 d-none d-lg-block d-xl-block">
+						<img src="media/tab1.svg">
+					</div>
+				</div>
+			  </div>
+			  
+			  <div  class="tab-pane" id="th-tab">
+				<div class="tab-holder">
+					<div class="col-lg-6 col-md-12" style="text-align: right;">
+						<div class="container">
+							<h3>
+								التسويق الالكتروني
+							</h3>
+							<span>
+								اولا تقييم موقعك فى جوجل و توافق التصميم و البرمجة مع معايير جوجل هو كل حاجة لو واخد تقييم ضعيف و غير متوافق يبقى مالوش اى لازمة حتى لو شكله عاجبك جدا و تقييمه ضعيف فى جوجل يبقي هيخسرك و ضيعت فلوسك فى التسويق و الموقع مع بعض لانك هتدفع فلوس فى التسويق كتير و مش هيجيلك عملاء بالعدد المناسب لتكلفة التسويق المدفوعة بالنسبة للمنافسين فى مجالك على جوجل و بكده مش هيجيلك عملاء زيهم بسبب ارتفاع سعر النقرات عندك و هم سعر النقرات عندهم اقل منك بكتير بسبب جودة تصميم و برمجة موقعهم متوافقه مع جوجل بالكامل و تانى حاجة موقع الاستضافه لازم يكون موقع محترم لان ده هياثر على التقييم فى جوجل برده لموقعك طيب ايه الى هيضمنلك انك تستلم موقعك من عندنا باعلى تقييم فى جوجل و اقوي تصميم متوافق مع جوجل ؟ بسيطة هتدخل على موقع جوجل الخاص باختبار موقعك و هتشوف التقييم لو ضعيف متستلمش موقعك و مش كده و بس كمان لو التسويق منجحش معاك هنرجعلك فلوسك و ده السبب فى ان فى مواقع تقريبا ببلاش و مواقع تانية مكلفة طبعا المكلفة اتعمل مجهود كبير جدا فى تنفيذها علشان الموقع ياخد تقييم عالى فى جوجل و يكون متوافق مع معايير جوجل في البرمجة و التصميم و التانية متعملش فيها مجهود كبير فى التنفيذ ده غير الحماية من الاختراق لموقعك من خلال 6 مراحل للحماية بضمان رسمي فى العقد و طبعا بتستلم عقد رسمى بسجل تجارى مختوم بختم الشركة يضمن ليك جودة موقعك و كمان دعم فنى مجانى لمدة سنة من تاريخ استلام موقعك علشان نضمن ليك ان فى حالة وجود اى مشكلة فى الموقع لقدر الله تتحل فورا بدون اى مصاريف اضافية زى الضمان كده لمدة سنة و الدعم الفنى عندنا شغال 24 ساعه طوال ايام الاسبوع و ليه رقم تواصل خاص بقسم الدعم الفنى
+							</span>
+						</div>
+					</div>
+					<div class="col-5 d-none d-lg-block d-xl-block">
+						<img src="media/tab1.svg">
+					</div>
+				</div>
+			  </div>
+
+			  <div  class="tab-pane" id="ft-tab">
+				<div class="tab-holder">
+					<div class="col-lg-6 col-md-12" style="text-align: right;">
+						<div class="container">
+							<h3>
+								تصميم وبرمجة تطبيقات الجوال
+							</h3>
+							<span>
+								اولا تقييم موقعك فى جوجل و توافق التصميم و البرمجة مع معايير جوجل هو كل حاجة لو واخد تقييم ضعيف و غير متوافق يبقى مالوش اى لازمة حتى لو شكله عاجبك جدا و تقييمه ضعيف فى جوجل يبقي هيخسرك و ضيعت فلوسك فى التسويق و الموقع مع بعض لانك هتدفع فلوس فى التسويق كتير و مش هيجيلك عملاء بالعدد المناسب لتكلفة التسويق المدفوعة بالنسبة للمنافسين فى مجالك على جوجل و بكده مش هيجيلك عملاء زيهم بسبب ارتفاع سعر النقرات عندك و هم سعر النقرات عندهم اقل منك بكتير بسبب جودة تصميم و برمجة موقعهم متوافقه مع جوجل بالكامل و تانى حاجة موقع الاستضافه لازم يكون موقع محترم لان ده هياثر على التقييم فى جوجل برده لموقعك طيب ايه الى هيضمنلك انك تستلم موقعك من عندنا باعلى تقييم فى جوجل و اقوي تصميم متوافق مع جوجل ؟ بسيطة هتدخل على موقع جوجل الخاص باختبار موقعك و هتشوف التقييم لو ضعيف متستلمش موقعك و مش كده و بس كمان لو التسويق منجحش معاك هنرجعلك فلوسك و ده السبب فى ان فى مواقع تقريبا ببلاش و مواقع تانية مكلفة طبعا المكلفة اتعمل مجهود كبير جدا فى تنفيذها علشان الموقع ياخد تقييم عالى فى جوجل و يكون متوافق مع معايير جوجل في البرمجة و التصميم و التانية متعملش فيها مجهود كبير فى التنفيذ ده غير الحماية من الاختراق لموقعك من خلال 6 مراحل للحماية بضمان رسمي فى العقد و طبعا بتستلم عقد رسمى بسجل تجارى مختوم بختم الشركة يضمن ليك جودة موقعك و كمان دعم فنى مجانى لمدة سنة من تاريخ استلام موقعك علشان نضمن ليك ان فى حالة وجود اى مشكلة فى الموقع لقدر الله تتحل فورا بدون اى مصاريف اضافية زى الضمان كده لمدة سنة و الدعم الفنى عندنا شغال 24 ساعه طوال ايام الاسبوع و ليه رقم تواصل خاص بقسم الدعم الفنى
+							</span>
+						</div>
+					</div>
+					<div class="col-5 d-none d-lg-block d-xl-block">
+						<img src="media/tab1.svg">
+					</div>
+				</div>
+			  </div>
+
+		  </div>
+		</div>
+
+		<!-- CUSTOMERS SECTION-->
+		<div id="customers-section">
+			<div style="width:90%; margin:auto;">
+				<a href="#navbar">
+					<img class="arrow-up" src="media/arrow-up.svg" >
+				</a>
+				<h3>
+					أراء عملائنا
+				</h3>
+				<h5>
+					كن أحد عملائنا احصل على برمجة
+					 و تصميم تطبيقك او برمجة وتصميم موقعك
+					  الان بأعلى جودة وأفضل خدمة دعم فني
+				</h5>
+				<div class="owl-carousel owl-carousel-customers owl-theme">
+					<div class="item">
+						<span class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="item-info">
+							it's very easy to create stylish and beautiful prototypes
+							for your future projects, both graphical and dynamic
+						</span>
+						<div class="client-section">
+							<h6>- Client -</h6>
+							<h4>Amazon</h4>
+						</div>
+					</div>
+					<div class="item">
+						<span class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="item-info">
+							it's very easy to create stylish and beautiful prototypes
+							for your future projects, both graphical and dynamic
+						</span>
+						<div class="client-section">
+							<h6>- Client -</h6>
+							<h4>Amazon</h4>
+						</div>
+					</div>
+					<div class="item">
+						<span class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="item-info">
+							it's very easy to create stylish and beautiful prototypes
+							for your future projects, both graphical and dynamic
+						</span>
+						<div class="client-section">
+							<h6>- Client -</h6>
+							<h4>Amazon</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="row m-auto" style="width: 85%;">
+				<div class="footer-section col-lg-3 col-md-12">
+					<a href="">
+						<img src="media/white-logo.svg">
+					</a>
+					<p>
+						تابعنا
+					</p>
+					<ul class="footer-socials">
+						<li>
+							<img src="media/instgram-logo.svg">
+						</li>
+						<li>
+							<img src="media/youtube-logo.svg">
+						</li>
+						<li>
+							<img src="media/twitter-logo.svg">
+						</li>
+						<li>
+							<img src="media/facebook-logo.svg">
+						</li>
+					</ul>
+				</div>
+				<div class="footer-section col-lg-2 col-md-6">
+					<h5>
+						روابط سريعة
+					</h5>
+					<ul class="footer-list">
+						<li>
+							<a href="index.html">
+								الرئيسية
+							</a>
+						</li>
+						<li>
+							<a href="who-we-are.html">
+								من نحن
+							</a>
+						</li>
+						<li>
+							<a href="our-services.html">
+								خدماتنا
+							</a>
+						</li>
+						<li>
+							<a href="get-an-offer.html">
+								أحصل على عرض
+							</a>
+						</li>
+						<li>
+							<a href="our-work.html">
+								أعمالنا
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-section col-lg-3 col-md-6">
+					<h5>
+						تواصل معنا
+					</h5>
+					<ul class="footer-list contact-info">
+						<li>
+							<a href="">
+								abc #239, xyz
+							</a>
+						</li>
+						<li>
+							<a href="">
+								Peermuchalla. Zirakpur, Mohali
+							</a>
+						</li>
+						<li>
+							<a href="">
+								Telephone: +91 99999-88888
+							</a>
+						</li>
+						<li>
+							<a href="">
+								E-mail: hr@info.in							
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-section col-lg-4 col-md-12">
+					<h4>
+						إشترك في النشرة البريدية
+					</h4>
+					<form action="">
+						<button type="submit">
+							<i class="fas fa-arrow-left"></i>
+							<span>
+								إشتراك
+							</span>
+						</button>
+						<input type="text" placeholder="أدخل بريدك الالكتروني">
+					</form>
+				</div>
+			</div>
+			<hr>
+			<div class="copyrights">
+				جميع الحقوق محفوظه لشركه إن بي سي © 2022-2021
+			</div>
+		</footer>
+		
+		<!-- AOS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- jquery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"
+		></script>
+
+		<!-- navTabs-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+		integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+		></script>		
+		<script src="scripts.js"></script>
+	</body>	
+</html>
